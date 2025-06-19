@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config
+  profiles:
+#    active: dev
+
+
+
+build:
+  id: 122
+  version: 2.2.2
+  name: "Default-Build"
+  type: "Default build"
