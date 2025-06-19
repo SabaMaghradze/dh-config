@@ -1,8 +1,9 @@
 spring:
   application:
     name: config
-  profiles:
-#    active: dev
+  config:
+    activate:
+      on-profile: dev
 
 
 
@@ -10,4 +11,4 @@ build:
   id: 122
   version: 2.2.2
   name: "Default-Build"
-  type: "Default build"
+  type: "Default Build"
