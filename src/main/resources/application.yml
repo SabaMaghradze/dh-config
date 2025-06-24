@@ -1,17 +1,14 @@
 spring:
   application:
-    name: config-client
-  profiles:
-    active: dev
+    name: configclient
   config:
     import: optional:configserver:http://localhost:8888
-#    means if that server is down or not running, it will default to application configurations (application.yml, application-prod/dev.yml)
 
 build:
-  id: ${BUILD_ID}
-  version: ${BUILD_VERSION}
-  name: ${BUILD_NAME}
-  type: ${BUILD_TYPE}
+  id: 420
+  version: 4.2.0
+  name: native aah default in config-client app.yml
+  type: native aah default in config-client app.yml
 
 management:
   endpoints:
